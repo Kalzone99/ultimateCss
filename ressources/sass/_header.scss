@@ -1,0 +1,123 @@
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  position: relative;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 0.4;
+  color: #fff;
+}
+.logo span {
+  color: #e6606c;
+}
+.navbar {
+  display: flex;
+  gap: 25px;
+}
+
+.deco_1 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/cc1b/e9a2/6b5285619ac1312604a5100963c18d50?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Szy9eEcQ~vudU5xHSyWF8tCUPgMsIEtCUr020FgERcqgdcyjNYF2t-crQaFhxTC6oHYVIstdE56etguHdFceqya5PVDGRDtYtp3ZDIrr8yhg-KDqP0DfrZp6ecQVyQyS-9kkCVxuu4bvikZgIqx0KGGfMmbzkUecQyzrkkiNQcxhNrJoZox17Seie1FNDw2lcNqG7IkS-vy3EWNmP0C-b3eqrYoYcuITQ~dMJrA37F5tI-L05mp3gNPrz4SKqU0~aEcZQznApiwpGrte~xk91eYSfKSYGeUoO4Ut94S7X2go2hPmKasAn2OUALqkmjefJlEAe~OlonYyeoShq~6qOA__);
+  position: absolute;
+  width: 730px;
+  height: 747px;
+  top: -112px;
+  right: -132px;
+  background-size: auto;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 503px;
+  height: 324px;
+  margin-top: 150px;
+  position: relative;
+  margin-bottom: 150px;
+}
+.title::before {
+  content: "";
+  background-image: url(https://s3-alpha-sig.figma.com/img/5e62/9250/ae47f7c8069b4507928c9be64373f068?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I4FnHcLU0mc6Vw5jWGFJMXYqK1CE8kz2waqMGbWhKesyi99GzpBmiyTf0lNHBWTNlUwhBdNRWWF31JAz4TVZ9Q9ya7NreDqjUt8k~jIPWH0CnfxexRMoKzJ~ENG3STIenBg1aKSV1BjvB6dKI~ePr4IEScDbkKPuaBbDQhQntEojpXsXL7Np6R~r481IO0vb2jE3cRWnG6VLu3tfW93lT6y~r5iO0ZQMXlJiRoKKRnL3lK~h6njox~YCcYE~ondEuApbyn3FLMKv6q8TcEd1vXC5j6ZlIc4RoZN6pgGxgeaHe8Mgl72lxacZNnm-YYkVw6HCGa7vt8Jvc5NeMemgcA__);
+  position: absolute;
+  top: -48px;
+  left: -43px;
+  width: 153px;
+  height: 142px;
+  z-index: 0;
+}
+.title::after {
+  content: "";
+  background-image: url(https://s3-alpha-sig.figma.com/img/7646/5e06/9622537eb9e87abe582f1b783526ca32?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L01jDL~6pQ3SNQ0zVeaID4bE~c2y8A8U5d5Jqemyo2Q2qHuz6wAhmo0BAtZUUNHqsYXkKZL4T9zvj52c0niQHPrRRbmqCAJgBZBGOEg8QeG0dZfckE~Qz~-nW4Y7hQJNdxYOlljMUdBGB1wF2y9-r~2FUL-Z6B6WJohhb1rvsz4BdEps6KHWfeBCAmfRBwBCPfRB6DO6NNaoX5zmjCQk~4CeY2wXB~Xf0D-FDnZEzriQXAloK6iiZKLgiRhPkWAqhX1wIAC9OdMSdXTANOh6LCKWkfB~S~m3G~HckFp~y5Ia0-u4cKdL8Nl~eV1iLojiRuBzofUghaOiutWnDT1KwQ__);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -49px;
+  right: 34px;
+  width: 184px;
+  height: 181px;
+}
+
+.title h1 {
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: 4.5%;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.title h2 {
+  font-size: 32px;
+  color: #e8ab36;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.title p {
+  font-weight: 300;
+  color: #efefef;
+  text-align: left;
+  width: 406px;
+}
+.clickable {
+  display: flex;
+  padding: 20px 5px;
+  gap: 20px;
+}
+.btn {
+  width: 150px;
+  padding: 11px 22px;
+  background-color: #e6606c;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  padding: 11px 22px;
+  background-color: #c0212e;
+  font-weight: 800;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+.btn_2 {
+  width: 150px;
+  padding: 11px 30px;
+  background-color: #f6ebeb;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn_2:hover {
+  padding: 11px 30px;
+  background-color: #867f7f;
+  font-weight: 800;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}

@@ -1,0 +1,146 @@
+main .container {
+  height: 575px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 100px;
+
+  .pic {
+    max-height: 570px;
+    max-width: 570px;
+  }
+  .lorem_right {
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 50px;
+    align-items: start;
+    position: relative;
+  }
+  a {
+    color: #ffffff 50%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    transition: 0.6s ease;
+  }
+  a:hover {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .container .lorem_right a:hover {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  h2 {
+    font-family: "Barlow Condensed", "Barlow", sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-size: 56px;
+    color: #fff;
+    position: relative;
+    width: 75%;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  p {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+}
+main .container .lorem_right h2::after {
+  content: "";
+  background-image: url(./Ellipse\ 1.png);
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.container_1 {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+.lorem_bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+.bottomTextContainer {
+  display: flex;
+  grid-area: 1 / 1 / 2 / 4;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  a {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 50%;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-family: "Barlow Condensed", "Barlow", sans-serif;
+    font-size: 56px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  h4 {
+    color: #fff;
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 51%;
+    margin-bottom: 30px;
+  }
+}
+.bottomTextContainer h2::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url(https://s3-alpha-sig.figma.com/img/5e62/9250/ae47f7c8069b4507928c9be64373f068?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=I4FnHcLU0mc6Vw5jWGFJMXYqK1CE8kz2waqMGbWhKesyi99GzpBmiyTf0lNHBWTNlUwhBdNRWWF31JAz4TVZ9Q9ya7NreDqjUt8k~jIPWH0CnfxexRMoKzJ~ENG3STIenBg1aKSV1BjvB6dKI~ePr4IEScDbkKPuaBbDQhQntEojpXsXL7Np6R~r481IO0vb2jE3cRWnG6VLu3tfW93lT6y~r5iO0ZQMXlJiRoKKRnL3lK~h6njox~YCcYE~ondEuApbyn3FLMKv6q8TcEd1vXC5j6ZlIc4RoZN6pgGxgeaHe8Mgl72lxacZNnm-YYkVw6HCGa7vt8Jvc5NeMemgcA__);
+  position: absolute;
+  top: -62px;
+  left: -78px;
+  width: 153px;
+  height: 142px;
+  z-index: 0;
+}
+.image {
+  max-width: 370px;
+  max-height: 432px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #4d4f95 0%, #2b2d66 100%);
+  img {
+    max-width: 370px;
+    max-height: 240px;
+    margin-bottom: 35px;
+  }
+  .image_text {
+    margin: 0 15px;
+    h2 {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 300;
+      width: 75%;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 15px;
+      color: #fff;
+      opacity: 50%;
+    }
+  }
+}
